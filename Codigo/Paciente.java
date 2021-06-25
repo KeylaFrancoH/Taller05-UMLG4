@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Paciente {
+public class Paciente extends Persona{
     protected String email;
     private ArrayList<Cita> cita;
     private ArrayList<HistoriaClinica> historiaC;
